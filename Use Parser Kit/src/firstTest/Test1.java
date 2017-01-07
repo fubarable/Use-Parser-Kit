@@ -70,7 +70,7 @@ public class Test1 {
 	@Override
 	public void processDocumentEnd() {
 	    if (cmdList.size() > 0) {
-		prntAndEmptyCmdList(cmdList);
+	    	prntAndEmptyCmdList(cmdList);
 	    }
 	}
 
